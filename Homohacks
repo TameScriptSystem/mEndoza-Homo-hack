@@ -22,6 +22,6 @@
 --                                                       yyyyyyy                                                                                                                                              
 
 
-game.Players.PlayerAdded:Connect(function(player)
-	player:Kick("Nigga, Dahood updated. Wait for me to update")
-end)
+local Players = game:GetService("Players")
+local player = Players.LocalPlayer
+player:Kick("DaHood Updated Twin, Wait till I update😎")
