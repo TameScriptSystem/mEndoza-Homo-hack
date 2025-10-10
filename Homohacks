@@ -1,4 +1,3 @@
-
-local Players = game:GetService("Players")
-local player = Players.LocalPlayer
-LocalPlayer:Kick('UP YOURS NIGGER!')
+game.Players.PlayerAdded:Connect(function(player)
+player:Kick("UP URS NIGGER!")
+end)
